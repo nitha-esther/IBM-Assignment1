@@ -88,6 +88,7 @@ Request Body (JSON):
   "department": "IT",
   "email": "nitha.it@gmail.com"
 }
+___
 5️⃣ Delete User
 Method: DELETE
 Endpoint: /users/:id
