@@ -72,3 +72,57 @@ node-express-backend/
   "department": "CSE",
   "email": "nitha@gmail.com"
 }
+3️⃣ Get All Users
+Method: GET
+Endpoint: /users
+Description:
+Retrieves all users currently stored in memory.
+4️⃣ Update User
+Method: PUT
+Endpoint: /users/:id
+Description:
+Updates an existing user based on the index value (id).
+Request Body (JSON):
+{
+  "name": "Nitha Esther",
+  "department": "IT",
+  "email": "nitha.it@gmail.com"
+}
+5️⃣ Delete User
+Method: DELETE
+Endpoint: /users/:id
+Description:
+Deletes a user from the in-memory data store based on index.
+📌 How to Run the Project
+Step 1: Install Node.js
+Make sure Node.js is installed on your system.
+Check version:
+node -v
+npm -v
+Step 2: Clone the Repository
+git clone https://github.com/nitha-esther/IBM-Assignment1.git
+Step 3: Navigate to Project Folder
+cd node-express-backend
+Step 4: Install Dependencies
+npm install
+Step 5: Start the Server
+npm start
+Step 6: Access the Server
+Server will run on:
+http://localhost:3000
+📌 Testing the APIs
+API testing can be done using Postman
+Select appropriate HTTP methods (GET, POST, PUT, DELETE)
+Set headers:
+Content-Type: application/json
+📌 Important Notes
+This project uses in-memory storage, so all data will be lost when the server restarts.
+Suitable for:
+KT assignments
+Training tasks
+Beginner backend learning
+Not intended for production use.
+📌 Author
+Nitha Esther RubyJoy.S
+Backend Developer
+IBM KT Assignment
